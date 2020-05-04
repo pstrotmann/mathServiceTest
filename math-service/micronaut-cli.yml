@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: math.service
+---
+testFramework: junit
+sourceLanguage: java
