@@ -17,7 +17,7 @@ class MathServiceTest {
 
 
     @ParameterizedTest
-    @CsvSource({"2,8", "3,12", "2,4"})
+    @CsvSource({"2,8", "3,12", "1,4"})
     void testComputeNumToSquare(Integer num, Integer square) {
         final Integer result = mathService.compute(num); 
 
